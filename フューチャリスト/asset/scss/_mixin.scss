@@ -1,0 +1,11 @@
+@mixin bgGolden{
+    background: linear-gradient(51deg, #997300 0%, #AC8200 12.33%, #B18500 24.39%, #836300 36.46%, #E5C150 58.33%, #F2D067 75%, #FFE597 87.76%, #FFF 99.50%);
+}
+@mixin colorGolden{
+    color: #B18500;
+}
+
+@mixin bgBlue {
+background: #5CCDE0;
+}
+
