@@ -497,7 +497,7 @@ img {
 }
 .faq__list__item::after {
   position: absolute;
-  content: url(/asset/img/icon/arrow_right.png);
+  content: url(../img/icon/arrow_right.png);
   top: 50%;
   right: 18px;
   -webkit-transform: translateY(-50%);
@@ -574,7 +574,7 @@ img {
 }
 .faq__content__list__item__q::after {
   position: absolute;
-  content: url(/asset/img/icon/Q.png);
+  content: url(../img/icon/Q.png);
   top: 50%;
   left: 8px;
   -webkit-transform: translate(-50%, -50%);
@@ -606,7 +606,7 @@ img {
 }
 .faq__content__list__item__a::after {
   position: absolute;
-  content: url(/asset/img/icon/A.png);
+  content: url(../img/icon/A.png);
   left: 8px;
   top: 18px;
   -webkit-transform: translateX(-50%);
