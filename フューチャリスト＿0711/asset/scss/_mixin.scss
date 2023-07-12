@@ -41,6 +41,11 @@ color: #FF6F02;
 border: 1px solid #FF6F02;
 }
 
+@mixin bgYellow {
+background: #FFEB3C;
+}
+
+
 @mixin pad {
   @media (max-width: 768px) {
     @content;

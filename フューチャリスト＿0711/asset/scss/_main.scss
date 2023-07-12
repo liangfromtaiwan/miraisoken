@@ -49,9 +49,22 @@
     padding: 24px;
     text-align: center;
     line-height: 1.6;
-    span {
+    .red {
       color: red;
       font-size: 20px;
+    }
+    .yellow{
+      position: relative;
+    }
+    .yellow::after{
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 7px;
+      @include bgYellow;
+      z-index: -1;
     }
   }
 	&__line{

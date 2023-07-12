@@ -309,9 +309,22 @@ img {
   text-align: center;
   line-height: 1.6;
 }
-.up__content span {
+.up__content .red {
   color: red;
   font-size: 20px;
+}
+.up__content .yellow {
+  position: relative;
+}
+.up__content .yellow::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  background: #FFEB3C;
+  z-index: -1;
 }
 .up__line {
   width: 100%;
