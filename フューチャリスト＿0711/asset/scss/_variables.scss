@@ -1,206 +1,210 @@
 body {
-	font-family: source-han-sans-japanese, Helvetica Neue, Arial, Hiragino Kaku Gothic ProN, Hiragino Sans, Meiryo, sans-serif;
-	background: #FEFEFE;
+  font-family: source-han-sans-japanese, Helvetica Neue, Arial,
+    Hiragino Kaku Gothic ProN, Hiragino Sans, Meiryo, sans-serif;
+  background: #fefefe;
 }
 
-*, ::before, ::after {
-	box-sizing: border-box;
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 a {
-	display: block;
-	text-decoration: none;
-	color: #fff;
+  display: block;
+  text-decoration: none;
+  color: #fff;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	object-fit: cover;
-	vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: middle;
 }
-
 
 .container {
-	margin: 0 auto;
-	max-width: 1080px;
-	// width: 1080px;
+  margin: 0 auto;
+  max-width: 1080px;
+  // width: 1080px;
 }
 
-.containers{
-	margin: 0 auto;
-	max-width: 968px;
+.containers {
+  margin: 0 auto;
+  max-width: 968px;
 }
 
 .inner {
-	padding: 16px;
+  padding: 16px;
 }
 
 .row {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 -16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
 }
 
 .col-4 {
-	width: 33.333%;
-	padding: 0 16px;
+  width: 33.333%;
+  padding: 0 16px;
 }
 
 .col-5 {
-	width: 41.666%;
-	padding: 0 16px;
+  width: 41.666%;
+  padding: 0 16px;
 }
 
 .col-6 {
-	width: 50%;
-	padding: 0 16px;
+  width: 50%;
+  padding: 0 16px;
 }
 
 .col-7 {
-	width: 58.333%;
-	padding: 0 16px;
+  width: 58.333%;
+  padding: 0 16px;
 }
 
 .col-8 {
-	width: 66.666%;
-	padding: 0 16px;
+  width: 66.666%;
+  padding: 0 16px;
 }
 
-
 .mb-120 {
-	margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .mb-100 {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .mb-60 {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .mb-40 {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mb-30 {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .mb-16 {
-	margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6 {
-	font-weight: bold;
-	line-height: 1.4;
-	letter-spacing: 3.72px;
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 3.72px;
 }
 
 .h1 {
-	font-size: 60px;
+  font-size: 60px;
 }
 
 .h2 {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .h3 {
-	font-size: 24px;
-}    
+  font-size: 24px;
+}
 
 .h4 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .h5 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .h6 {
-	font-size: 16px;
+  font-size: 16px;
 }
 
-
-.font-l, .font-s {
-	line-height: 1.5;
-	text-align: justify;
+.font-l,
+.font-s {
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .font-l {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .font-s {
-	font-size: 14px;
+  font-size: 14px;
 }
-	.pcOnly{
-	display: block;
+
+.pcOnly {
+  display: block;
 }
-.spOnly{
-	display: none;
+
+.spOnly {
+  display: none;
 }
-@media(max-width:768px) {
-	.pcOnly{
-	display: none;
-}
-	.spOnly{
-		display: block;
-	}
-	.l-list__item__itemOne,.l-list__item__itemTwo{
-		img{
-		width: 100%;
-		}
-	}
+@media (max-width: 768px) {
+  .pcOnly {
+    display: none;
+  }
+  .spOnly {
+    display: block;
+  }
+  .l-list__item__itemOne,
+  .l-list__item__itemTwo {
+    img {
+      width: 100%;
+    }
+  }
   .h1 {
-	font-size: 48px;
+    font-size: 48px;
+  }
+
+  .h2 {
+    font-size: 22px;
+  }
+
+  .h3 {
+    font-size: 20px;
+  }
+
+  .h4 {
+    font-size: 18px;
+  }
+
+  .h5 {
+    font-size: 16px;
+  }
+
+  .h6 {
+    font-size: 16px;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-7 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-5 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 50%;
+  }
 }
 
-.h2 {
-	font-size: 22px;
+@media (max-width: 425px) {
+  .col-4,
+  .col-6 {
+    width: 100%;
+  }
 }
-
-.h3 {
-	font-size: 20px;
-}    
-
-.h4 {
-	font-size: 18px;
-}
-
-.h5 {
-	font-size: 16px;
-}
-
-.h6 {
-	font-size: 16px;
-}
-	.col-8 {
-		width: 100%;
-	}
-	.col-7{
-		width: 100%;
-	}
-	.col-6{
-		width: 100%;
-	}
-	.col-5{
-		width: 100%;
-	}
-	.col-4 {
-		width: 50%;
-	}
-}
-
-@media(max-width:425px) {
-	.col-4, .col-6 {
-		width: 100%;
-	}
-}
-
-
-
-
-
-
