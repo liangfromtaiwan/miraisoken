@@ -131,6 +131,9 @@
     }
   }
   &__why {
+    @include pad{
+      gap:12px
+    }
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,6 +148,22 @@
     @include borderBlue;
   }
   .l-list__item__why {
+    	display: flex;
+		justify-content: center;
+		@include pad{
+      gap: 12px;
+      &__img{
+        @include pad{
+          width: 40px;
+          height: 40px;
+        }
+        width: 60px;
+        height: 60px;
+      }
+      .h2{
+        font-size: 14px;
+      }
+		}
     @include bgBlue;
   }
 }
@@ -157,14 +176,18 @@
 		display: flex;
 		justify-content: center;
 		@include pad{
-			gap: 12px;
-			img{
-				width: 60px;
-				height: 60px;
-			}
-			.h2{
-				font-size: 14px;
-			}
+      gap: 12px;
+      &__img{
+        @include pad{
+          width: 40px;
+          height: 40px;
+        }
+        width: 60px;
+        height: 60px;
+      }
+      .h2{
+        font-size: 14px;
+      }
 		}
     @include bgRed;
   }
@@ -175,6 +198,22 @@
     @include borderGreen;
   }
   .l-list__item__why {
+    	display: flex;
+		justify-content: center;
+		@include pad{
+      gap: 12px;
+      &__img{
+        @include pad{
+          width: 40px;
+          height: 40px;
+        }
+        width: 60px;
+        height: 60px;
+      }
+      .h2{
+        font-size: 14px;
+      }
+		}
     @include bgGreen;
   }
 }

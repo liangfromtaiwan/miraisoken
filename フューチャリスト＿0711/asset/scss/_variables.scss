@@ -135,15 +135,18 @@ img {
 .font-s {
 	font-size: 14px;
 }
-.spOnly{
+	.pcOnly{
 	display: block;
+}
+.spOnly{
+	display: none;
 }
 @media(max-width:768px) {
 	.pcOnly{
 	display: none;
 }
 	.spOnly{
-		display: none;
+		display: block;
 	}
 	.l-list__item__itemOne,.l-list__item__itemTwo{
 		img{
