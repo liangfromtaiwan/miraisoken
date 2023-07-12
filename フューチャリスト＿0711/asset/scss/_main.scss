@@ -1,4 +1,9 @@
 .mv {
+  .inner{
+    @include pad{
+      padding: 0;
+    }
+  }
   padding: 60px 0;
   @include pad {
     padding: 0;
@@ -229,7 +234,7 @@
   }
   &__list__item::after {
     position: absolute;
-    content: url(/asset/img/icon/arrow_right.png);
+    content: url(../img/icon/arrow_right.png);
     top: 50%;
     right: 18px;
     transform: translateY(-50%);
@@ -298,7 +303,7 @@
 				left: 0;
 			}
       position: absolute;
-      content: url(/asset/img/icon/Q.png);
+      content: url(../img/icon/Q.png);
       top: 50%;
       left: 8px;
       transform: translate(-50%, -50%);
@@ -325,9 +330,9 @@
 				left: 0;
 			}
       position: absolute;
-      content: url(/asset/img/icon/A.png);
+      content: url(../img/icon/A.png);
       left: 8px;
-      top: 18px;
+      top: 5px;
       transform: translateX(-50%);
     }
   }

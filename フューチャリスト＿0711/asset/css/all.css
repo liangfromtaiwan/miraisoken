@@ -192,8 +192,11 @@ img {
 }
 
 @media (max-width: 768px) {
+  .pcOnly {
+    display: none;
+  }
   .spOnly {
-    display: block;
+    display: none;
   }
   .l-list__item__itemOne img, .l-list__item__itemTwo img {
     width: 100%;
@@ -239,6 +242,11 @@ img {
 }
 .mv {
   padding: 60px 0;
+}
+@media (max-width: 768px) {
+  .mv .inner {
+    padding: 0;
+  }
 }
 @media (max-width: 768px) {
   .mv {
@@ -608,7 +616,7 @@ img {
   position: absolute;
   content: url(../img/icon/A.png);
   left: 8px;
-  top: 18px;
+  top: 5px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }

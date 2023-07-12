@@ -139,8 +139,11 @@ img {
 	display: block;
 }
 @media(max-width:768px) {
+	.pcOnly{
+	display: none;
+}
 	.spOnly{
-		display: block;
+		display: none;
 	}
 	.l-list__item__itemOne,.l-list__item__itemTwo{
 		img{
