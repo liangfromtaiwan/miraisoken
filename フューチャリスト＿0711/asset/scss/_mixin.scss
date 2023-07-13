@@ -6,39 +6,39 @@
 }
 
 @mixin bgBlue {
-background: #5CCDE0;
+background: #00D0E3;
 }
 
 @mixin borderBlue{
-    border: 6px solid #5CCDE0;
+    border: 6px solid #00D0E3;
 }
 
 @mixin bgRed {
-background: #E96E6E;
+background: #FF5050;
 }
 
 @mixin borderRed{
-    border: 6px solid #E96E6E;
+    border: 6px solid #FF5050;
 }
 
 @mixin bgGreen {
-background: #A0CD63;
+background: #92D050;
 }
 
 @mixin borderGreen{
-    border: 6px solid #A0CD63;
+    border: 6px solid #92D050;
 }
 
 @mixin bgOrange {
-background: #FF6F02;
+background: #FF6F00;
 }
 
 @mixin colorOrange {
-color: #FF6F02;
+color: #FF6F00;
 }
 
 @mixin borderOrange{
-border: 1px solid #FF6F02;
+border: 1px solid #FF6F00;
 }
 
 @mixin bgYellow {
