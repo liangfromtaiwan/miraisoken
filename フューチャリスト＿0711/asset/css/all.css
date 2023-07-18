@@ -692,13 +692,12 @@ img {
     left: 0;
   }
 }
-.faq__content__list__item__q::before {
-  display: none;
+.faq__content__list__item__a::before {
   position: absolute;
   content: "";
   width: 100%;
   border: 1px dashed #333;
-  bottom: 0;
+  top: 0;
   left: 0;
 }
 .faq__content__list__item__a {
@@ -723,14 +722,6 @@ img {
   .faq__content__list__item__a::after {
     left: 0;
   }
-}
-
-.faq__content__list__item.active .faq__content__list__item__a {
-  display: block;
-}
-
-.faq__content__list__item.active .faq__content__list__item__q::before {
-  display: block;
 }
 
 .faq__content__list__item.active .cross::after {
