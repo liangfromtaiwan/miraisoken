@@ -1,62 +1,60 @@
-@mixin bgGolden{
+@mixin bgGolden {
     background: linear-gradient(51deg, #997300 0%, #AC8200 12.33%, #B18500 24.39%, #836300 36.46%, #E5C150 58.33%, #F2D067 75%, #FFE597 87.76%, #FFF 99.50%);
 }
-@mixin colorGolden{
+
+@mixin colorGolden {
     color: #B18500;
 }
 
 @mixin bgBlue {
-background: #00D0E3;
+    background: #00D0E3;
 }
 
-@mixin borderBlue{
+@mixin borderBlue {
     border: 6px solid #00D0E3;
 }
 
 @mixin bgRed {
-background: #FF5050;
+    background: #FF5050;
 }
 
-@mixin borderRed{
+@mixin borderRed {
     border: 6px solid #FF5050;
 }
 
 @mixin bgGreen {
-background: #92D050;
+    background: #92D050;
 }
 
-@mixin borderGreen{
+@mixin borderGreen {
     border: 6px solid #92D050;
 }
 
 @mixin bgOrange {
-background: #FF6F00;
+    background: #FF6F00;
 }
 
 @mixin colorOrange {
-color: #FF6F00;
+    color: #FF6F00;
 }
 
-@mixin borderOrange{
-border: 1px solid #FF6F00;
+@mixin borderOrange {
+    border: 1px solid #FF6F00;
 }
 
 @mixin bgYellow {
-background: #FFEB3C;
+    background: #FFEB3C;
 }
 
 
 @mixin pad {
-  @media (max-width: 768px) {
-    @content;
-  }
+    @media (max-width: 768px) {
+        @content;
+    }
 }
 
-@mixin mobile{
-	@media(max-width: 375px){
-		@content
-	}
+@mixin mobile {
+    @media(max-width: 375px) {
+        @content
+    }
 }
-
-
-

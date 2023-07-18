@@ -149,19 +149,23 @@ img {
 .spOnly {
   display: none;
 }
+
 @media (max-width: 768px) {
   .pcOnly {
     display: none;
   }
+
   .spOnly {
     display: block;
   }
+
   .l-list__item__itemOne,
   .l-list__item__itemTwo {
     img {
       width: 100%;
     }
   }
+
   .h1 {
     font-size: 48px;
   }
@@ -185,24 +189,30 @@ img {
   .h6 {
     font-size: 16px;
   }
+
   .col-8 {
     width: 100%;
   }
+
   .col-7 {
     width: 100%;
   }
+
   .col-6 {
     width: 100%;
   }
+
   .col-5 {
     width: 100%;
   }
+
   .col-4 {
     width: 50%;
   }
 }
 
 @media (max-width: 425px) {
+
   .col-4,
   .col-6 {
     width: 100%;
