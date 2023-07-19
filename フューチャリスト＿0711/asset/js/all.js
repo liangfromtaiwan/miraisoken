@@ -11,19 +11,19 @@ $(document).ready(function () {
 
 //faq slide down
 $(document).ready(function () {
-  $(".faq__content__list__item").click(function (e) {
+  $(".faq__content__list--active .faq__content__list__item").click(function (e) {
     e.preventDefault();
-    $(this).find(".faq__content__list__item__a").slideDown();
+    $(this).find(".faq__content__list__item__a").slideToggle();
     $(this).toggleClass("active");
   });
 });
-// $(document).ready(function () {
-//   $(".faq__content__list .faq__content__list__item").click(function (e) {
-//     e.preventDefault();
-//     $(this).find(".faq__content__list__item__a").slideToggle();
-//     $(this).toggleClass("active");
-//   });
-// });
+$(document).ready(function () {
+  $(".faq__content__list .faq__content__list__item").click(function (e) {
+    e.preventDefault();
+    $(this).find(".faq__content__list__item__a").slideToggle();
+    $(this).toggleClass("active");
+  });
+});
 
 
 //ページ内リンクのスムーズスクロールを実装
