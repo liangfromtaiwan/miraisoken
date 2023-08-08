@@ -1,0 +1,80 @@
+$gutter-width:32px;
+$grid-num:12;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -($gutter-width/2);
+  margin-left: -($gutter-width/2);
+}
+
+%col {
+  position: relative;
+  min-height: 1px;
+  padding-right: $gutter-width/2;
+  padding-left: $gutter-width/2;
+}
+
+
+@for $i from 1 to $grid-num+1 {
+  .col-#{$i} {
+    @extend %col;
+    max-width: 100%*($i/12);
+    flex:0 0 (100%*($i/12));
+  }
+}
+
+
+.col-3 {
+  max-width: 25%;
+  float: 0 0 25%;
+}
+
+.col-4 {
+  max-width: 33.333%;
+  flex: 0 0 33.333%;
+}
+
+.col-5 {
+  max-width: 41.666%;
+  flex: 0 0 41.666%;
+}
+
+.col-6 {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.col-7 {
+  max-width: 58.333%;
+  flex: 0 0 58.333%;
+}
+
+.col-8 {
+  max-width: 66.666%;
+  flex: 0 0 66.666%;
+}
+
+.col-12 {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+@media(max-width:768px) {
+
+ @for $i from 1 to $grid-num {
+    .col-#{$i} {
+    max-width: 100%;
+    flex:0 0 100%;
+    }
+  }
+
+}
+
+@media(max-width:425px) {
+
+  .col-4,
+  .col-6 {
+    width: 100%;
+  }
+}
